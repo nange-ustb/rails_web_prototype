@@ -1,0 +1,2 @@
+= content_for :backend_title,"管理 #{resource_class.model_name.human}"
+= render "index", :attributes => attributes-%w(category)

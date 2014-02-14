@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/admin
+END
+administrators_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/admin/administrators_controller.rb
+END
+events_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/admin/events_controller.rb
+END
+resource_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/admin/resource_controller.rb
+END
+permissions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/admin/permissions_controller.rb
+END

@@ -1,0 +1,15 @@
+- type ||= resource_class
+- path = "#{send("order_admin_#{current_resource_name.pluralize}_path".to_sym, :t => "#{type}")}&"
+- id ||= "banners_list"
+:javascript
+  $(function(){
+    $("##{id}").sortable({
+      start:function(){$("##{id}").sortable("disable");},
+      stop:function(event, ui){
+        params = $("##{id}").sortable("serialize")
+        $.post( "#{path}" + params )
+        $("##{id}").sortable("enable");
+      }
+    });
+  })
+

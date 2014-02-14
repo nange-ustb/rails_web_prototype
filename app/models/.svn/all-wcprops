@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/user.rb
+END
+administrator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/administrator.rb
+END
+event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/event.rb
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/.gitkeep
+END
+administrator_affiliate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/administrator_affiliate.rb
+END
+affiliate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/affiliate.rb
+END
+administrator_permission.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/administrator_permission.rb
+END
+permission.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/permission.rb
+END
+permission_event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/permission_event.rb
+END
+ability.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/ability.rb
+END
+setting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/models/setting.rb
+END

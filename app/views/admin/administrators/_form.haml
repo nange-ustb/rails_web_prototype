@@ -1,0 +1,31 @@
+= simple_form_for [ :admin, resource ], :html => { :class => 'form-horizontal' }, :validate => true do |f|
+  - attributes.each do |attr|
+    - if attr == 'is_admin'
+      = f.input attr, :validate => true,:label=>"超级管理员"
+    - else
+      = f.input attr, :validate => true
+  .alert.alert-error
+    超级管理员可以忽略后面的选项
+  .alert.alert-info  
+    权限    
+  = f.association :permissions,:as => :check_boxes , :class => false ,:item_wrapper_class => 'inline' , :label => false
+  .alert.alert-info
+    分支
+  = f.association :affiliates ,:as => :check_boxes , :class => false ,:item_wrapper_class => 'inline' , :label => false
+  = f.submit :class => 'btn btn-primary'
+=link_to t("#{resource_class.name.underscore}.back_list") , collection_path
+
+:javascript
+  $(function(){
+   $('form').enableClientSideValidations();
+    $(".alert input").click(
+      function(){
+        if( $(this).attr("checked") == "checked" ){
+          $(this).parent().next().find("input:checkbox").attr("checked", true)
+        }else{
+          $(this).parent().next().find("input:checkbox").attr("checked", false)
+        }
+      })
+  })
+
+

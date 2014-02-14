@@ -1,0 +1,3 @@
+= content_for :backend_title,"管理 #{resource_class.model_name.human}"
+= render "info_message"
+= render "index", :attributes => attributes

@@ -1,0 +1,18 @@
+%table.table-condensed.table
+  - attributes.each do |attr|
+    %tr
+      %td{:style=>"width:20%;font-weight: bold;"}=resource_class.human_attribute_name(attr) + ":"
+      - if resource.respond_to? "#{attr}_text"
+        - attr_value = resource.send("#{attr}_text")
+      - else
+        - attr_value = resource.send(attr)
+      - case attr_value
+      - when TrueClass , FalseClass
+        %td= resource_class.human_attribute_name(attr + "_" + attr_value.to_s)
+      - when CarrierWave::Uploader::Base
+        %td= resource.send( attr + "_identifier") unless resource.send( attr + "_url" ).nil?
+      - when CarrierWave::Uploader::Base
+        %td= image_tag( resource.send( attr + "_url" , :thumb ) ) unless resource.send( attr + "_url" ).nil?
+      - else
+        %td= attr_value
+=link_to t("#{resource_class.name.underscore}.back_list") , collection_path, :class => 'btn'

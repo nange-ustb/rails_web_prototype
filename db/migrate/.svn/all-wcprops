@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate
+END
+20130127030041_create_events.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20130127030041_create_events.rb
+END
+20130125014726_create_permissions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20130125014726_create_permissions.rb
+END
+20130123012705_create_administrators.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20130123012705_create_administrators.rb
+END
+20130127030447_create_permission_events.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20130127030447_create_permission_events.rb
+END
+20131018092652_create_affiliates.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20131018092652_create_affiliates.rb
+END
+20130801031355_devise_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20130801031355_devise_create_users.rb
+END
+20130128013325_create_administrator_affiliates.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20130128013325_create_administrator_affiliates.rb
+END
+20130125015243_create_administrator_permissions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/db/migrate/20130125015243_create_administrator_permissions.rb
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/application_controller.rb
+END
+admin_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/admin_controller.rb
+END
+home_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/controllers/home_controller.rb
+END

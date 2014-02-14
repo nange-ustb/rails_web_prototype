@@ -1,0 +1,25 @@
+<script type="text/javascript">
+  var provinces = new Array();
+  <% provinces = GeoLocation.provinces %>
+  <% for pro in provinces -%>
+    provinces.push(new Array(<%= pro.location_id %>, '<%=raw pro.name %>', <%= pro.area_id %>));
+  <% end -%>
+   
+  function areaSelected() {
+    province_id = $('#province_id').val();
+    area_id = $('#dynamic_area_id').val();
+    options = document.getElementById("dynamic_province_id").options;
+    options.length = 1;
+    for (var i = 0; i < provinces.length; i++){
+      if (provinces[i][2] == area_id) {
+        options[options.length] = new Option(provinces[i][1], provinces[i][0]);
+      }
+    }
+    $('#dynamic_province_id').val(province_id)
+  }
+
+  $(function() {
+    areaSelected();
+    $('#dynamic_area_id').change(areaSelected);
+  });
+</script>

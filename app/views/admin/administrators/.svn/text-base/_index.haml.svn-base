@@ -1,0 +1,36 @@
+= form_tag( collection_path , { :method => :get }) do
+  %p
+    用户名:
+    = text_field_tag "search[user_name]" , params[:search].nil? ? "" : params[:search][:user_name]
+    = submit_tag t("#{resource_class.name.underscore}.search")
+%table{:class => "table table-bordered"}
+  %thead
+    %tr
+      - attributes.each do |attr|
+        %th= resource_class.human_attribute_name(attr)
+      %th= "操作"
+  %tbody
+    - collection.each do |resource|
+      %tr[resource]
+        - attributes.each do |attr|
+          - if attr == "is_admin"
+            %td
+              - if resource.send attr.to_sym
+                超级管理员
+              - else
+                - resource.permissions.each do|r|
+                  %span.nav= r.name
+          - elsif attr == "affiliates"
+            %td 
+              - resource.affiliates.each do |a|
+                %span.nav= a.name
+          - else
+            %td= resource.send(attr).to_s.truncate(20)
+        %td
+          = link_to t("#{resource_class.name.underscore}.show"), resource_path(resource)
+          |
+          = link_to t("#{resource_class.name.underscore}.edit"), edit_resource_path(resource)
+          |
+          = link_to t("#{resource_class.name.underscore}.destroy"), resource_path(resource), :method => :delete, :confirm => t("#{resource_class.name.underscore}.are_you_sure")
+= paginate collection, :theme => 'twitter-bootstrap'
+= link_to t("#{resource_class.name.underscore}.new"), new_resource_path

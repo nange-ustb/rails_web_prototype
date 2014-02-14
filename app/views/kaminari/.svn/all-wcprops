@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari
+END
+_next_page.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari/_next_page.html.erb
+END
+_page.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari/_page.html.erb
+END
+_last_page.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari/_last_page.html.erb
+END
+_first_page.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari/_first_page.html.erb
+END
+_paginator.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari/_paginator.html.erb
+END
+_gap.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari/_gap.html.erb
+END
+_prev_page.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/GIM/Rails/!svn/ver/23500/network_marketing/rails_web_prototype/app/views/kaminari/_prev_page.html.erb
+END

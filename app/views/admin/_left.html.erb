@@ -1,0 +1,16 @@
+<div id="menu">
+  <h6 id="h-menu-powers">
+    <a href="#powers"><span>权限管理</span></a>
+  </h6>
+  <ul id="menu-powers">
+    <% if can? :read , Administrator %>
+    	<li><%= link_to("管理员管理", admin_administrators_path, :target => 'contentfrm') -%></li>
+    <% end %>
+    <% if can? :read , Permission %>
+    	<li><%= link_to("权限管理", admin_permissions_path, :target => 'contentfrm') -%></li>
+    <% end %>
+    <% if can? :read , Event %>
+      <li><%= link_to("非开发勿动，后果自负", admin_events_path, :target => 'contentfrm') -%></li>
+    <% end %>
+  </ul>
+</div>
